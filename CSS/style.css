@@ -1,0 +1,39 @@
+:root {
+ --Orange: hsl(25, 97%, 53%);
+
+--White: hsl(0, 0%, 100%);
+--light-grey: hsl(217, 12%, 63%);
+--medium-grey: hsl(216, 12%, 54%);
+--dark-blue: hsl(213, 19%, 18%);
+--very-dark-blue: hsl(216, 12%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+.container{
+    background-color: var(--very-dark-blue);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card{
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+    width: 600px;
+    height: 500px;
+    padding: 1%;
+    border-radius: 30px;
+
+}
+.card h1 {
+    color: var(--White);
+}
