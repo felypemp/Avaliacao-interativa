@@ -15,11 +15,12 @@
 }
 
 body {
+    background-color: var(--very-dark-blue);
     font-family: 'Overpass', sans-serif;
 }
 
 .container{
-    background-color: var(--very-dark-blue);
+    width: 100%;
     display: flex;
     justify-content: space-around;
     
