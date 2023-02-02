@@ -1,7 +1,7 @@
 :root {
  --Orange: hsl(25, 97%, 53%);
 
---White: hsl(0, 0%, 100%);
+--white: hsl(0, 0%, 100%);
 --light-grey: hsl(217, 12%, 63%);
 --medium-grey: hsl(216, 12%, 54%);
 --dark-blue: hsl(213, 19%, 18%);
@@ -32,7 +32,7 @@ body {
     background-color: var(--dark-blue);
     color: var(--light-grey);
     width: 88%; /*Temporário*/
-    height: 500px; /*Temporário*/
+    height: 80%px; /*Temporário*/
     padding: 2.5rem;
     border-radius: 1.5rem;
 
@@ -56,7 +56,7 @@ img {
 .card h1 {
     font-size: 2.4rem;
     margin-top: 2rem;
-    color: var(--White);
+    color: var(--white);
 }
 
 .text{
@@ -64,4 +64,47 @@ img {
     margin-top: 1.2rem;
     font-size: 1.4rem;
     line-height: 2rem;
+}
+
+.Number-list{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.number-rating{
+    color: var(--light-grey) ;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: var(--medium-grey);
+    width: 4rem;
+    height: 4rem;
+    border-radius:50%;
+    margin-top: 2.5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-rating:hover{
+
+}
+
+.btn-submit{
+    background-color: var(--Orange);
+    width: 100%;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    
+}
+
+.btn-submit:hover{
+    background-color: var(--white);
+    color:orange;
+
 }
