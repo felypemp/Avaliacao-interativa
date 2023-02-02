@@ -55,5 +55,13 @@ img {
 
 .card h1 {
     font-size: 2.4rem;
+    margin-top: 2rem;
     color: var(--White);
+}
+
+.text{
+    color: var(--light-grey);
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
 }

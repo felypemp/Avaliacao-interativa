@@ -5,7 +5,7 @@
 - [x] Criar estrutura semântica no HTML
 - [x] Colocar imagem da estrela no HTML
 - [x] Estilizar externamente o card (Tamanho e bordas)
-- [ ] Estilizar os componentes de título e parágrafo
+- [x] Estilizar os componentes de título e parágrafo
 - [ ] Estilizar os botões de avaliação
 - [ ] Estilizar o botão Enviar
 - [ ] Criar lógica para os botões de avaliação
