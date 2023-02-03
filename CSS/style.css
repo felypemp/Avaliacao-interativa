@@ -27,6 +27,9 @@ body {
     align-items: center;
     
 }
+.hide{
+    display: none;
+}
 
 .card{
     background-color: var(--dark-blue);
@@ -88,7 +91,14 @@ img {
 }
 
 .number-rating:hover{
+    background-color: var(--Orange);
+    color:white;
+    cursor: pointer;
+}
 
+.selected{
+    background-color: var(--light-grey);
+    color: white;
 }
 
 .btn-submit{
@@ -106,5 +116,7 @@ img {
 .btn-submit:hover{
     background-color: var(--white);
     color:orange;
+    font-weight: 700;
+    cursor: pointer;
 
 }
