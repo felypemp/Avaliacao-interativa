@@ -1,3 +1,4 @@
+/* ----------------------- Estilziação global -------------------*/
 :root {
  --Orange: hsl(25, 97%, 53%);
 
@@ -27,9 +28,6 @@ body {
     align-items: center;
     
 }
-.hide{
-    display: none;
-}
 
 .card{
     background-color: var(--dark-blue);
@@ -40,6 +38,9 @@ body {
     border-radius: 1.5rem;
 
 }
+
+
+/* ----------------- Estilziando o primeiro card --------------------- */
 
 .star{
     background-color: var(--medium-grey);
@@ -56,7 +57,7 @@ body {
     width: 1.4rem;
 }
 
-.card h1 {
+.title {
     font-size: 2.4rem;
     margin-top: 2rem;
     color: var(--white);
@@ -119,4 +120,38 @@ body {
     font-weight: 700;
     cursor: pointer;
 
+}
+
+/* ---------- estilizando card 2 -------------*/
+
+.card2-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card2-content img {
+    width: 14.5rem;
+    margin: 1rem;
+}
+
+.result{
+    color: var(--Orange);
+    background-color: var(--medium-grey);
+    padding: 0.8rem 1.4rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-top:2rem;
+}
+
+.text-feedback {
+    margin-top:1rem;
+}
+
+
+/* ------------ Esconder card inativo ------------- */
+.hide {
+    display: none;
 }
