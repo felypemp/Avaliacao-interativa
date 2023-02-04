@@ -15,7 +15,9 @@
 - [x] Definir estrutura semântica do card 2
 - [x] Estilizar a imagem do card 2
 - [x] Estilizar o texto do card 2
-- [] Definir o JS (Quebrar em mais partes)
+- [] Criar funcao para o botam Enviar esconder o card 1 e revelar o card 2
+- [] Criar função para clicar no botão de classificação
+- [] Exibir o numero da classificação no card de agradecimento
 
 
 ### Extra:
