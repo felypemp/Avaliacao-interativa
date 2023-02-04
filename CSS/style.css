@@ -32,8 +32,8 @@ body {
 .card{
     background-color: var(--dark-blue);
     color: var(--light-grey);
-    width: 88%; /*Temporário*/
-    height: 80%px; /*Temporário*/
+    width: 88%;
+    max-width: 40rem;
     padding: 2.5rem;
     border-radius: 1.5rem;
 
