@@ -96,6 +96,15 @@ body {
     color:white;
     cursor: pointer;
 }
+.comment {
+    margin-top:2.5rem;
+}
+
+textarea{
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 100%;
+}
 
 .btn-submit{
     background-color: var(--Orange);

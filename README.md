@@ -22,5 +22,4 @@
 
 ### Extra:
 
-- [ ] Criar um campo para comentário
-- [ ] Trocar a avaliação de números para estrelas
+- [X] Criar um campo para comentário
